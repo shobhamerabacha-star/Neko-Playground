@@ -1,11 +1,11 @@
 {
   "version": "0.0.0",
-  "name": "lending",
+  "name": "@neko/lending",
   "type": "module",
   "exports": "./dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "dependencies": {
     "@stellar/stellar-sdk": "^14.5.0",
